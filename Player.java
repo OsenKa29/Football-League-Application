@@ -44,6 +44,15 @@ public abstract class Player {
     public String getPosition() {
         return position;
     }
+    
+    public boolean isInATeam() {
+        return inATeam;
+    }
+
+    public void setInATeam(boolean inATeam) {
+        this.inATeam = inATeam;
+    }
+
 
     public abstract  void printPlayer();
 }
