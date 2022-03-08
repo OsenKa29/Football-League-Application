@@ -8,7 +8,7 @@ public abstract class Player {
     private int weight;
     private int number;
     private String position = null;
-    boolean inATeam = false;
+    boolean InATeam = false;
         
 
     public Player(String name, int age, double height,int weight, int number, String position) {
