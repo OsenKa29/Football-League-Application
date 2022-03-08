@@ -38,7 +38,7 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
         if(tactic == null)
             return false;
 
-        boolean checkTactic = tactic.equals("4 4 2") || tactic.equals("4 3 3") || tactic.equals("4 4 1 1") || tactic.equals("4 3 2 1") || tactic.equals("5 3 2") ||
+        boolean checkTactic = tactic.equals("4 4 2") || tactic.equals("4 3 3") || tactic.equals("4 4 1 1") || tactic.equals("4 2 3 1") || tactic.equals("4 3 2 1") || tactic.equals("5 3 2") ||
         tactic.equals("3 4 3") || tactic.equals("4 3 1 2");
         //check if tactic is valid
         if(!checkTactic){
@@ -78,6 +78,10 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
             System.out.println("Player " + player.getName() + " already in team.");
             return false;
         }
+        else if(player.isInATeam()) {
+            System.out.println("Player is already in a team.");
+            return false;
+        }
         else if(!checkValidation) {
             System.out.println("Invalid player characteristics. Check your players information.");
             return false;
@@ -96,6 +100,7 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
             default: return  false;
         }
 
+        player.setInATeam(true);
         return true;
        }
 
@@ -192,7 +197,7 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
             return;
         }
 
-        System.out.println("Players in team: ");
+        System.out.println("Players in team " + this.name + ": ");
         System.out.println();
         for(T i: players)
             i.printPlayer();
@@ -204,7 +209,7 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
             return;
         }
 
-        System.out.println("Players: ");
+        System.out.println(this.name + " squad:");
         System.out.println();
         for(T i: squad)
             i.printPlayer();
