@@ -4,7 +4,7 @@ public class FootballPlayer extends Player{
 
 
 
-    FootballPlayer(String name, int age, double height,int weight, int number, String position) {
+    public FootballPlayer(String name, int age, double height,int weight, int number, String position) {
         super(name, age, height, weight, number, position);
     }
 
