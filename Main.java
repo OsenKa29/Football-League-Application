@@ -124,7 +124,6 @@ public class Main {
         FootballPlayer lewandowski = new FootballPlayer("Robert Lewandowski", 33, 1.85, 81, 9, "forward");
         FootballPlayer müller = new FootballPlayer("Thomas Müller", 32, 1.85, 76, 25, "forward");
         FootballPlayer sane = new FootballPlayer("Leroy Sane", 26, 1.83, 80, 19, "forward");
-        FootballPlayer coman = new FootballPlayer("Kingsley Coman", 25, 1.8, 76, 11, "forward");
         FootballPlayer maxim = new FootballPlayer("Maxim Choupo-Moting", 32, 1.91, 84, 13, "forward");
         FootballPlayer tillman = new FootballPlayer("Malik Tillman", 19, 1.91, 84, 13, "forward");
        
@@ -137,6 +136,8 @@ public class Main {
         FootballPlayer tolisso = new FootballPlayer("Corentin Tolisso", 27, 1.81, 81, 24, "midfielder");
         FootballPlayer sabitzer = new FootballPlayer("Marcel Sabitzer", 27, 1.78, 76, 18, "midfielder");
         FootballPlayer roca = new FootballPlayer("Marc Roca", 25, 1.84, 77, 22, "midfielder");
+	FootballPlayer coman = new FootballPlayer("Kingsley Coman", 25, 1.8, 76, 11, "midfielder");
+
         
  
         FootballPlayer süle = new FootballPlayer("Niklas Süle", 26, 1.95, 99, 4, "defender");
@@ -195,8 +196,23 @@ public class Main {
         
         bayernMünchen.setTactic("3 5 2");
         
-        bayernMünchen.addPlayerToSquad(lewandowski);
-            //change the adab
+	bayernMünchen.addPlayerToSquad(lewandowski);
+        bayernMünchen.addPlayerToSquad(müller);
+
+
+        bayernMünchen.addPlayerToSquad(gnabry);
+        bayernMünchen.addPlayerToSquad(musiala);
+        bayernMünchen.addPlayerToSquad(coman);
+        bayernMünchen.addPlayerToSquad(davies);
+        bayernMünchen.addPlayerToSquad(kimmich);
+
+
+        bayernMünchen.addPlayerToSquad(pavard);
+        bayernMünchen.addPlayerToSquad(süle);
+        bayernMünchen.addPlayerToSquad(upamecano);
+
+
+       bayernMünchen.addPlayerToSquad(ulreich);            //change the adab
 
     }
 
