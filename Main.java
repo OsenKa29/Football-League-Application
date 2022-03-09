@@ -193,10 +193,9 @@ public class Main {
            
         //add players to squad
         
-        bayernMünchen.setTactic("4 2 3 1");
+        bayernMünchen.setTactic("3 5 2");
         
         bayernMünchen.addPlayerToSquad(lewandowski);
-
             //change the adab
 
     }
