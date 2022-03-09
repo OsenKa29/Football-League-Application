@@ -38,8 +38,8 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
         if(tactic == null)
             return false;
 
-        boolean checkTactic = tactic.equals("4 4 2") || tactic.equals("4 3 3") || tactic.equals("4 4 1 1") || tactic.equals("4 2 3 1") || tactic.equals("4 3 2 1") || tactic.equals("5 3 2") ||
-        tactic.equals("3 4 3") || tactic.equals("4 3 1 2");
+        boolean checkTactic = tactic.equals("4 4 2") || tactic.equals("4 3 3") || tactic.equals("4 5 1") || tactic.equals("5 4 1") || tactic.equals("5 3 2") ||
+                tactic.equals("3 4 3") || tactic.equals("3 5 2");
         //check if tactic is valid
         if(!checkTactic){
             System.out.println("Invalid tactic!");
