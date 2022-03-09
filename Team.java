@@ -286,6 +286,18 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
     public int getForwardInTeam() {
         return forwardInTeam;
     }
+    
+    public int getMaxDefenderInSquad() {
+        return maxDefenderInSquad;
+    }
+
+    public int getMaxMidfielderInSquad() {
+        return maxMidfielderInSquad;
+    }
+
+    public int getMaxForwardInSquad() {
+        return maxForwardInSquad;
+    }
 
     public void matchWin() {
         this.won++;
