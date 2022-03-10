@@ -3,7 +3,7 @@ package com.Classing;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
         //Create players for realmadrid first
 
@@ -11,7 +11,7 @@ public class Main {
         FootballPlayer vinicius = new FootballPlayer("Vinicius Jr", 21, 1.76,73,  20, "forward");
         FootballPlayer benzema = new FootballPlayer("Karim Benzema", 34, 1.85, 81, 9, "forward");
         FootballPlayer hazard = new FootballPlayer("Eden Hazard", 31, 1.75, 74, 7, "forward");
-        FootballPlayer marco = new FootballPlayer("Marco Asensio", 26, 1.82, 76, 11, "forward");
+        FootballPlayer asensio = new FootballPlayer("Marco Asensio", 26, 1.82, 76, 11, "forward");
         FootballPlayer jovic = new FootballPlayer("Luca Jovic", 24, 1.82, 85, 16, "forward");
         FootballPlayer rodrygo = new FootballPlayer("Rodrygo", 21, 1.74, 64, 21, "forward");
         FootballPlayer diaz = new FootballPlayer("Mariano Diaz", 28, 1.8, 76, 24, "forward");
@@ -55,7 +55,7 @@ public class Main {
         realMadrid.addPlayerToTeam(vinicius);
         realMadrid.addPlayerToTeam(benzema);
         realMadrid.addPlayerToTeam(hazard);
-        realMadrid.addPlayerToTeam(marco);
+        realMadrid.addPlayerToTeam(asensio);
         realMadrid.addPlayerToTeam(jovic);
         realMadrid.addPlayerToTeam(rodrygo);
         realMadrid.addPlayerToTeam(diaz);
@@ -110,24 +110,24 @@ public class Main {
         realMadrid.addPlayerToSquad(militao);
         realMadrid.addPlayerToSquad(carvajal);
 
-        
+
         realMadrid.addPlayerToSquad(courtois);
-        
-        
 
 
 
-        
+
+
+
         //Now the same things for bayern munih team
-        
+
         //create players
         FootballPlayer lewandowski = new FootballPlayer("Robert Lewandowski", 33, 1.85, 81, 9, "forward");
         FootballPlayer müller = new FootballPlayer("Thomas Müller", 32, 1.85, 76, 25, "forward");
         FootballPlayer sane = new FootballPlayer("Leroy Sane", 26, 1.83, 80, 19, "forward");
         FootballPlayer maxim = new FootballPlayer("Maxim Choupo-Moting", 32, 1.91, 84, 13, "forward");
         FootballPlayer tillman = new FootballPlayer("Malik Tillman", 19, 1.91, 84, 13, "forward");
-       
-        
+
+
         FootballPlayer davies = new FootballPlayer("Alphonso Davies", 21, 1.83, 75, 19, "midfielder");
         FootballPlayer kimmich = new FootballPlayer("Joshua Kimmich", 26, 1.77, 75, 6, "midfielder");
         FootballPlayer gnabry = new FootballPlayer("Serge Gnabry", 26, 1.76, 77, 7, "midfielder");
@@ -136,10 +136,10 @@ public class Main {
         FootballPlayer tolisso = new FootballPlayer("Corentin Tolisso", 27, 1.81, 81, 24, "midfielder");
         FootballPlayer sabitzer = new FootballPlayer("Marcel Sabitzer", 27, 1.78, 76, 18, "midfielder");
         FootballPlayer roca = new FootballPlayer("Marc Roca", 25, 1.84, 77, 22, "midfielder");
-	FootballPlayer coman = new FootballPlayer("Kingsley Coman", 25, 1.8, 76, 11, "midfielder");
+        FootballPlayer coman = new FootballPlayer("Kingsley Coman", 25, 1.8, 76, 11, "midfielder");
 
-        
- 
+
+
         FootballPlayer süle = new FootballPlayer("Niklas Süle", 26, 1.95, 99, 4, "defender");
         FootballPlayer richards = new FootballPlayer("Omar Richards", 24, 1.74, 70, 3, "defender");
         FootballPlayer hernandez = new FootballPlayer("Lucas Hernandez", 26, 1.84, 79, 21, "defender");
@@ -147,17 +147,18 @@ public class Main {
         FootballPlayer sarr = new FootballPlayer("Bouna Sarr", 30, 1.77, 69, 20, "defender");
         FootballPlayer kouassi = new FootballPlayer("Tanguy Nianzou Kouassi", 19, 1.91, 85, 23, "defender");
         FootballPlayer stanisic = new FootballPlayer("Josip Stanisic", 21, 1.87, 77, 44, "defender");
-        
-        
+        FootballPlayer upamecano = new FootballPlayer("Dayot Upamecano", 23, 1.86, 90, 2, "defender");
+
+
         FootballPlayer neuer = new FootballPlayer("Manuel Neuer", 35, 1.93, 93, 1, "goal keeper");
         FootballPlayer ulreich = new FootballPlayer("Sven Ulreich", 33, 1.92, 84, 26, "goal keeper");
         FootballPlayer früchtl = new FootballPlayer("Christian Früchtl", 22, 1.93, 84, 36, "goal keeper");
-        
-        
-        
+
+
+
         //create team
         Team<FootballPlayer> bayernMünchen = new Team<>("FC Bayern München");
-        
+
         //add players to team
         bayernMünchen.addPlayerToTeam(lewandowski);
         bayernMünchen.addPlayerToTeam(müller);
@@ -165,8 +166,8 @@ public class Main {
         bayernMünchen.addPlayerToTeam(coman);
         bayernMünchen.addPlayerToTeam(maxim);
         bayernMünchen.addPlayerToTeam(tillman);
-        
-        
+
+
         bayernMünchen.addPlayerToTeam(davies);
         bayernMünchen.addPlayerToTeam(kimmich);
         bayernMünchen.addPlayerToTeam(gnabry);
@@ -175,8 +176,8 @@ public class Main {
         bayernMünchen.addPlayerToTeam(tolisso);
         bayernMünchen.addPlayerToTeam(sabitzer);
         bayernMünchen.addPlayerToTeam(roca);
-        
-        
+
+
         bayernMünchen.addPlayerToTeam(süle);
         bayernMünchen.addPlayerToTeam(richards);
         bayernMünchen.addPlayerToTeam(hernandez);
@@ -184,19 +185,21 @@ public class Main {
         bayernMünchen.addPlayerToTeam(sarr);
         bayernMünchen.addPlayerToTeam(kouassi);
         bayernMünchen.addPlayerToTeam(stanisic);
-        
-        
+        bayernMünchen.addPlayerToTeam(upamecano);
+
+
         bayernMünchen.addPlayerToTeam(neuer);
         bayernMünchen.addPlayerToTeam(ulreich);
         bayernMünchen.addPlayerToTeam(früchtl);
-        
-        
-           
+
+
+
         //add players to squad
-        
+
         bayernMünchen.setTactic("3 5 2");
-        
-	bayernMünchen.addPlayerToSquad(lewandowski);
+
+
+        bayernMünchen.addPlayerToSquad(lewandowski);
         bayernMünchen.addPlayerToSquad(müller);
 
 
@@ -212,7 +215,121 @@ public class Main {
         bayernMünchen.addPlayerToSquad(upamecano);
 
 
-       bayernMünchen.addPlayerToSquad(ulreich);            //change the adab
+        bayernMünchen.addPlayerToSquad(ulreich);
+
+
+
+
+
+        //paris saint german
+
+
+        FootballPlayer messi = new FootballPlayer("Lionel Messi", 34, 1.69, 67, 30, "forward");
+        FootballPlayer mbappe = new FootballPlayer("Kylian Mbappe", 23, 1.78, 73, 7, "forward");
+        FootballPlayer neymar = new FootballPlayer("Neymar", 30, 1.75, 68, 10, "forward");
+        FootballPlayer icardi = new FootballPlayer("Mauro Icardi", 29, 1.81, 75, 9, "forward");
+
+
+        FootballPlayer xavi = new FootballPlayer("Xavi Simons", 18, 1.68, 58, 34, "midfielder");
+        FootballPlayer diMaria = new FootballPlayer("Angel Di Maria", 34, 1.8, 75, 11, "midfielder");
+        FootballPlayer veratti = new FootballPlayer("Marco Veratti", 29, 1.65, 60, 6, "midfielder");
+        FootballPlayer wijnaldum = new FootballPlayer("Georginio Wijnaldum", 31, 1.75, 74, 18, "midfielder");
+        FootballPlayer pereira = new FootballPlayer("Danilo Pereira", 30, 1.9, 83, 15, "midfielder");
+        FootballPlayer paredes = new FootballPlayer("Leandro Paredes", 27, 1.8, 75, 8, "midfielder");
+        FootballPlayer draxler = new FootballPlayer("Julian Draxler", 28, 1.85, 72, 23, "midfielder");
+        FootballPlayer michut = new FootballPlayer("Edouard Michut", 19, 1.78, 68, 38, "midfielder");
+        FootballPlayer gueye = new FootballPlayer("Idrissa Gueye", 32, 1.74, 66, 27, "midfielder");
+        FootballPlayer herrera = new FootballPlayer("Ander Herrera", 32, 1.82, 73, 21, "midfielder");
+        FootballPlayer ebimbe = new FootballPlayer("Eric Ebimbe", 21, 1.83, 66, 28, "midfielder");
+
+
+        FootballPlayer ramos = new FootballPlayer("Sergio Ramos", 35, 1.84, 82, 4, "defender");
+        FootballPlayer hakimi = new FootballPlayer("Achraf Hakimi", 23, 1.81, 73, 2, "defender");
+        FootballPlayer mendes = new FootballPlayer("Nuno Mendes", 19, 1.76, 70, 25, "defender");
+        FootballPlayer marquinhos = new FootballPlayer("Marquinhos", 27, 1.83, 79, 5, "defender");
+        FootballPlayer kehrer = new FootballPlayer("Thilo Kehrer", 25, 1.86, 76, 24, "defender");
+        FootballPlayer kimpembe = new FootballPlayer("Presnel Kimpembe", 26, 1.83, 77, 3, "defender");
+        FootballPlayer bernat = new FootballPlayer("Juan Bernat", 29, 1.77, 67, 14, "defender");
+        FootballPlayer diallo = new FootballPlayer("Abdou Diallo", 25, 1.87, 79, 22, "defender");
+        FootballPlayer kurzawa = new FootballPlayer("Layvin Kurzawa", 29, 1.82, 74, 20, "defender");
+        FootballPlayer dagba = new FootballPlayer("Colin Dagba", 23, 1.7, 62, 17, "defender");
+
+
+        FootballPlayer donnarumma = new FootballPlayer("Gianluigi Donnarumma", 23, 1.96, 90, 50, "goal keeper");
+        FootballPlayer navas = new FootballPlayer("Keylor Navas", 80, 1.85, 80, 1, "goal keeper");
+        FootballPlayer letellier = new FootballPlayer("Alexandre Letellier", 31, 1.93, 93, 60, "goal keeper");
+        FootballPlayer innocent = new FootballPlayer("Garissone Innocent", 21, 1.92, 40, 66, "goal keeper");
+
+
+
+
+        //create team
+        Team<FootballPlayer> parisSaintGerman = new Team<>("Paris Saint-Germain F.C.");
+
+        //add players to team
+        parisSaintGerman.addPlayerToTeam(messi);
+        parisSaintGerman.addPlayerToTeam(mbappe);
+        parisSaintGerman.addPlayerToTeam(neymar);
+        parisSaintGerman.addPlayerToTeam(icardi);
+
+
+        parisSaintGerman.addPlayerToTeam(xavi);
+        parisSaintGerman.addPlayerToTeam(diMaria);
+        parisSaintGerman.addPlayerToTeam(veratti);
+        parisSaintGerman.addPlayerToTeam(wijnaldum);
+        parisSaintGerman.addPlayerToTeam(pereira);
+        parisSaintGerman.addPlayerToTeam(paredes);
+        parisSaintGerman.addPlayerToTeam(draxler);
+        parisSaintGerman.addPlayerToTeam(michut);
+        parisSaintGerman.addPlayerToTeam(gueye);
+        parisSaintGerman.addPlayerToTeam(herrera);
+        parisSaintGerman.addPlayerToTeam(ebimbe);
+
+
+        parisSaintGerman.addPlayerToTeam(ramos);
+        parisSaintGerman.addPlayerToTeam(hakimi);
+        parisSaintGerman.addPlayerToTeam(mendes);
+        parisSaintGerman.addPlayerToTeam(marquinhos);
+        parisSaintGerman.addPlayerToTeam(kehrer);
+        parisSaintGerman.addPlayerToTeam(kimpembe);
+        parisSaintGerman.addPlayerToTeam(bernat);
+        parisSaintGerman.addPlayerToTeam(diallo);
+        parisSaintGerman.addPlayerToTeam(kurzawa);
+        parisSaintGerman.addPlayerToTeam(dagba);
+
+
+        parisSaintGerman.addPlayerToTeam(donnarumma);
+        parisSaintGerman.addPlayerToTeam(navas);
+        parisSaintGerman.addPlayerToTeam(letellier);
+        parisSaintGerman.addPlayerToTeam(innocent);
+
+
+
+        //add players to squad
+
+        parisSaintGerman.setTactic("4 3 3");
+
+
+        parisSaintGerman.addPlayerToSquad(mbappe);
+        parisSaintGerman.addPlayerToSquad(messi);
+        parisSaintGerman.addPlayerToSquad(neymar);
+
+
+        parisSaintGerman.addPlayerToSquad(paredes);
+        parisSaintGerman.addPlayerToSquad(pereira);
+        parisSaintGerman.addPlayerToSquad(veratti);
+
+
+        parisSaintGerman.addPlayerToSquad(mendes);
+        parisSaintGerman.addPlayerToSquad(kimpembe);
+        parisSaintGerman.addPlayerToSquad(marquinhos);
+        parisSaintGerman.addPlayerToSquad(hakimi);
+
+
+        parisSaintGerman.addPlayerToSquad(donnarumma);
+
+        parisSaintGerman.printSquad();
+
 
     }
 
