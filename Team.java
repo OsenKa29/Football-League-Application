@@ -106,7 +106,7 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
 
     public boolean addPlayerToSquad(T player) {
         if(squad.size() == 11) {
-            System.out.println("Squad is full. Can't add any more players.");
+            System.out.println(getName() + "'s squad is full. Can't add any more players.");
             return false;
         }
         else if(!players.contains(player)) {
