@@ -328,7 +328,22 @@ public class Main {
 
         parisSaintGerman.addPlayerToSquad(donnarumma);
 
-        parisSaintGerman.printSquad();
+        
+        
+        
+        
+        
+        //liverpool
+
+
+        FootballPlayer salah = new FootballPlayer("Mohamed Salah", 29, 1.75, 73, 11, "forward");
+        FootballPlayer díaz = new FootballPlayer("Luis Díaz", 25, 1.78, 65, 23, "forward");
+        FootballPlayer mane = new FootballPlayer("Sadio Mané", 29, 1.75, 69, 10, "forward");
+        FootballPlayer minamino = new FootballPlayer("Takumi Minamino", 27, 1.74, 67, 18, "forward");
+        FootballPlayer jota = new FootballPlayer("Diogo Jota", 25, 1.78, 70, 20, "forward");
+        FootballPlayer firmino = new FootballPlayer("Roberto Firmino", 30, 1.81, 76, 9, "forward");
+        FootballPlayer origi = new FootballPlayer("Divock Origi", 26, 1.85, 76, 27, "forward");
+
 
 
     }
