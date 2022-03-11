@@ -344,6 +344,18 @@ public class Main {
         FootballPlayer firmino = new FootballPlayer("Roberto Firmino", 30, 1.81, 76, 9, "forward");
         FootballPlayer origi = new FootballPlayer("Divock Origi", 26, 1.85, 76, 27, "forward");
 
+        
+        
+        FootballPlayer elliott = new FootballPlayer("Harvey Elliott", 18, 1.7, 67, 67, "midfielder");
+        FootballPlayer alcantara = new FootballPlayer("Thiago Alcântara", 30, 1.74, 71, 6, "midfielder");
+        FootballPlayer morton = new FootballPlayer("Tyler Morton", 19, 1.75, 84, 80, "midfielder");
+        FootballPlayer keïta = new FootballPlayer("Naby Keïta", 27, 1.72, 64, 8, "midfielder");
+        FootballPlayer chamberlain = new FootballPlayer("Alex Oxlade-Chamberlain", 28, 1.8, 70, 15, "midfielder");
+        FootballPlayer henderson = new FootballPlayer("Jordan Henderson", 31, 1.82, 80, 14, "midfielder");
+        FootballPlayer fabinho = new FootballPlayer("Fabinho", 28, 1.88, 78, 3, "midfielder");
+        FootballPlayer milner = new FootballPlayer("James Milner", 36, 1.75, 70, 7, "midfielder");
+        FootballPlayer jones = new FootballPlayer("Curtis Jones", 21, 1.85, 75, 17, "midfielder");
+        FootballPlayer bradley = new FootballPlayer("Conor Bradley", 18, 1.81, 64, 84, "midfielder");
 
 
     }
