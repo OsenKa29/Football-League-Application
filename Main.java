@@ -372,7 +372,41 @@ public class Main {
 
         
         
+        Team<FootballPlayer> liverpool = new Team<>("Liverpool F.C.");
 
+        //add players to team
+        liverpool.addPlayerToTeam(salah);
+        liverpool.addPlayerToTeam(diaz);
+        liverpool.addPlayerToTeam(mane);
+        liverpool.addPlayerToTeam(minamino);
+        liverpool.addPlayerToTeam(jota);
+        liverpool.addPlayerToTeam(firmino);
+        liverpool.addPlayerToTeam(origi);
+
+
+        liverpool.addPlayerToTeam(elliott);
+        liverpool.addPlayerToTeam(alcantara);
+        liverpool.addPlayerToTeam(morton);
+        liverpool.addPlayerToTeam(keita);
+        liverpool.addPlayerToTeam(chamberlain);
+        liverpool.addPlayerToTeam(henderson);
+        liverpool.addPlayerToTeam(fabinho);
+        liverpool.addPlayerToTeam(milner);
+        liverpool.addPlayerToTeam(jones);
+        liverpool.addPlayerToTeam(bradley);
+
+        liverpool.addPlayerToTeam(dijk);
+        liverpool.addPlayerToTeam(arnold);
+        liverpool.addPlayerToTeam(konate);
+        liverpool.addPlayerToTeam(tsimikas);
+        liverpool.addPlayerToTeam(robertson);
+        liverpool.addPlayerToTeam(matip);
+        liverpool.addPlayerToTeam(gomez);
+
+
+        liverpool.addPlayerToTeam(kelleher);
+        liverpool.addPlayerToTeam(becker);
+        liverpool.addPlayerToTeam(karius);
 
     }
 
