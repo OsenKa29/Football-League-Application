@@ -407,6 +407,31 @@ public class Main {
         liverpool.addPlayerToTeam(kelleher);
         liverpool.addPlayerToTeam(becker);
         liverpool.addPlayerToTeam(karius);
+        
+        
+        
+        //add players to squad
+
+        liverpool.setTactic("4 3 3");
+
+
+        liverpool.addPlayerToSquad(salah);
+        liverpool.addPlayerToSquad(mane);
+        liverpool.addPlayerToSquad(luisDiaz);
+
+
+        liverpool.addPlayerToSquad(keita);
+        liverpool.addPlayerToSquad(fabinho);
+        liverpool.addPlayerToSquad(henderson);
+
+
+        liverpool.addPlayerToSquad(arnold);
+        liverpool.addPlayerToSquad(matip);
+        liverpool.addPlayerToSquad(dijk);
+        liverpool.addPlayerToSquad(robertson);
+
+
+        liverpool.addPlayerToSquad(becker);
 
     }
 
