@@ -344,8 +344,7 @@ public class Main {
         FootballPlayer firmino = new FootballPlayer("Roberto Firmino", 30, 1.81, 76, 9, "forward");
         FootballPlayer origi = new FootballPlayer("Divock Origi", 26, 1.85, 76, 27, "forward");
 
-        
-        
+       
         FootballPlayer elliott = new FootballPlayer("Harvey Elliott", 18, 1.7, 67, 67, "midfielder");
         FootballPlayer alcantara = new FootballPlayer("Thiago Alcântara", 30, 1.74, 71, 6, "midfielder");
         FootballPlayer morton = new FootballPlayer("Tyler Morton", 19, 1.75, 84, 80, "midfielder");
@@ -356,6 +355,23 @@ public class Main {
         FootballPlayer milner = new FootballPlayer("James Milner", 36, 1.75, 70, 7, "midfielder");
         FootballPlayer jones = new FootballPlayer("Curtis Jones", 21, 1.85, 75, 17, "midfielder");
         FootballPlayer bradley = new FootballPlayer("Conor Bradley", 18, 1.81, 64, 84, "midfielder");
+        
+        
+        FootballPlayer dijk = new FootballPlayer("Virgil van Dijk", 30, 1.93, 92, 4, "defender");
+        FootballPlayer arnold = new FootballPlayer("Trent Alexander-Arnold", 23, 1.75, 69, 66, "defender");
+        FootballPlayer konate = new FootballPlayer("Ibrahima Konaté", 22, 1.94, 95, 5, "defender");
+        FootballPlayer tsimikas = new FootballPlayer("Konstantinos Tsimikas", 25, 1.78, 70, 21, "defender");
+        FootballPlayer robertson = new FootballPlayer("Andrew Robertson", 28, 1.78, 64, 26, "defender");
+        FootballPlayer matip = new FootballPlayer("Joël Matip", 30, 1.95, 90, 32, "defender");
+        FootballPlayer gomez = new FootballPlayer("Joe Gomez", 24, 1.88, 77, 12, "defender");
+
+
+        FootballPlayer kelleher = new FootballPlayer("Caoimhin Kelleher", 23, 1.88, 75, 62, "goalkeeper");
+        FootballPlayer becker = new FootballPlayer("Alisson Becker", 29, 1.91, 91, 1, "goalkeeper");
+        FootballPlayer karius = new FootballPlayer("Loris Karius", 28, 1.89, 90, 22, "goalkeeper");
+
+        
+        
 
 
     }
