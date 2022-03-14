@@ -433,6 +433,19 @@ public class Main {
 
         liverpool.addPlayerToSquad(becker);
 
+        
+        
+        
+        //barcelona
+
+        FootballPlayer Dembele = new FootballPlayer("Ousmane Dembélé", 24, 1.78, 67, 7, "forward");
+        FootballPlayer aubameyang = new FootballPlayer("Pierre-Emerick Aubameyang", 32, 1.87, 80, 25, "forward");
+        FootballPlayer torres = new FootballPlayer("Ferran Torres", 22, 1.84, 77, 19, "forward");
+        FootballPlayer traore = new FootballPlayer("Adama Traoré", 26, 1.78, 86, 11, "forward");
+        FootballPlayer fati = new FootballPlayer("Ansu Fati", 19, 1.78, 66, 10, "forward");
+        FootballPlayer depay = new FootballPlayer("Memphis Depay", 28, 1.76, 78, 9, "forward");
+        FootballPlayer ezzalzouli = new FootballPlayer("Abde Ezzalzouli", 20, 1.77, 65, 33, "forward");
+        
     }
 
 }
