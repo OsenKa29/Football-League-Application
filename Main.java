@@ -445,6 +445,8 @@ public class Main {
         FootballPlayer fati = new FootballPlayer("Ansu Fati", 19, 1.78, 66, 10, "forward");
         FootballPlayer depay = new FootballPlayer("Memphis Depay", 28, 1.76, 78, 9, "forward");
         FootballPlayer ezzalzouli = new FootballPlayer("Abde Ezzalzouli", 20, 1.77, 65, 33, "forward");
+        FootballPlayer jong = new FootballPlayer("Luuk de Jong", 31, 1.88, 86, 17, "forward");
+
         
     }
 
