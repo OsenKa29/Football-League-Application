@@ -450,15 +450,15 @@ public class Main {
         FootballPlayer braithwaite = new FootballPlayer("Martin Braithwaite", 30, 1.77, 73, 12, "forward");
         FootballPlayer pedrola = new FootballPlayer("Estanis Pedrola", 18, 1.85, 72, 39, "forward");
 
-        FootballPlayer gavi = new FootballPlayer("Pablo Martín PáezGavi", 17, 1.73, 68, 30, "midfielder");
+        FootballPlayer gavi = new FootballPlayer("Martín Gavi", 17, 1.73, 68, 30, "midfielder");
         FootballPlayer pedri = new FootballPlayer("Pedro González López", 19, 1.74, 60, 16, "midfielder");
-        FootballPlayer jutgla = new FootballPlayer("Ferran Jutglà", 23, 1.75 , 77, 29, "midfielder");
-        FootballPlayer jong = new FootballPlayer("Frenkie de Jong", 24, 1.80, 74, 21, "midfielder");
-        FootballPlayer gonzalez = new FootballPlayer("Nico González", 20, 1.88, 86, 14, "midfielder");
+        FootballPlayer jutgla = new FootballPlayer("Ferran Jutglà", 23, 1.75, 77, 29, "midfielder");
+        FootballPlayer fJong = new FootballPlayer("Frenkie de Jong", 24, 1.80, 74, 21, "midfielder");
+        FootballPlayer nGonzalez = new FootballPlayer("Nico González", 20, 1.88, 86, 14, "midfielder");
         FootballPlayer puig = new FootballPlayer("Riqui Puig", 22, 1.69, 56, 6, "midfielder");
         FootballPlayer busquets = new FootballPlayer("Sergio Busquets", 33, 1.89, 76, 5, "midfielder");
         FootballPlayer sanz = new FootballPlayer("Álvaro Sanz", 21, 1.7, 68, 34, "midfielder");
-        
+            
         
     }
 
